@@ -1,18 +1,16 @@
+"use strict";
+
 /**
- * Sums values in array by loop "for"
- * @param {Array} arr Array of numbers
- * @return {number} Sum of the numbers
+ * Sums values in the array by loop "for"
+ * @param {Array} array Array of numbers
+ * @returns {total} Sum of the numbers
  */
-function sumLoop( arr ) {
-    var result = 0;
-
-    for ( var i = 0; i < newArr.length; i++ ) {
-        result += newArr[i];
-    }
-
-    return result;
+function sum(array) {
+  let total = 0;
+  for (let i = 0; i < array.length; i++) {
+    total += array[i];
+  }
+  return total;
 }
 
-var arr = [1, 2, 3, 4];
-
-console.log( sumLoop( arr ) ); // 10
+console.log(sum([1, 2, 3, 4])); // 10

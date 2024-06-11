@@ -27,6 +27,7 @@ highlights/node_modules
 highlights/atom-language-perl6/
 .DS_store
 highlights/package-lock.json
+zig-cache
 
 # IDE specific
 .scala_dependencies
@@ -40,3 +41,5 @@ highlights/package-lock.json
 *.sublime-workspace
 /.env
 atlassian-ide-plugin.xml
+__pycache__
+.vscode

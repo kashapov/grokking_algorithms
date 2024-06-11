@@ -1,16 +1,8 @@
 /**
- * Sums values in array by function "reduce"
- * @param {Array} arr Array of numbers
- * @return {number} Sum of the numbers
+ * Sums values in the array by function "reduce"
+ * @param {Array} array Array of numbers
+ * @returns {number} Sum of the numbers
  */
-const sumReduce = ( arr ) => {
-    let result = newArr.reduce( ( curr, prev ) => {
-        return curr + prev;
-    } );
+const sumReduce = array => array.reduce((prev, curr) => prev + curr);
 
-    return result;
-};
-
-let arr = [1, 2, 3, 4];
-
-console.log( sumReduce( arr ) ); // 10
+console.log(sumReduce([1, 2, 3, 4])); // 10
